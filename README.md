@@ -45,6 +45,8 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * portait mode: 1vmin=1vw and 1vmax=1vh
 * landscape mode: 1vmin=1vh and 1vmax=1vw
 
+[example](https://image.ibb.co/j7urcp/rtaImage.png)
+
 ## **ABSOLUTE UNITS**
 
 ### **Pixels(px)**
