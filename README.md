@@ -1,6 +1,6 @@
 # **CSS UNITS GUIDE**
 
-## **RELATIVE UNITES**
+## **RELATIVE UNITS**
 
 ### **em**
 
@@ -10,10 +10,9 @@
 **[example 2](https://codepen.io/dixita0607/pen/LQNoOL)**
 
 ### **rem**
-
-* relative to the root element 
+* A relative unit, like em, but it is always relative to the "root" element (i.e. :root {}) rather than using the cascade like em does. 
 ```
-html{
+:root{
     font-size: 20px;
 }
 ```
@@ -25,6 +24,7 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 **the default value for font-size is 16px**
 
 ### **Percentage (%)**
+* Based on the length of same property of the parent element. For example, if an element renders at 450px width, a child element with a width set to 50% will render at 225px.
 * **Use for:** making responsive images and containers; setting height on the body in some cases.
 * **Don’t use for:** typography.
 ### **ex**
@@ -40,23 +40,21 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * **Don’t use in:** media queries, as the viewport will never attain a width of less than 100vw or a height less than 100vh: by definition, those numbers correspond to the current dimensions of the browser window, no matter how large or small the screen or device is. Be aware of the unit’s lack of support in IE8.
 
 ### **vmin/vmax**
-* vmin is the small between vh and vh
-* vmax is the large between vh and vh
+* **vmax** - This value will be whichever is **smaller** at the moment, vw or vh.
+* **vmax** - This value will be whichever is **larger** at the moment, vw or vh.
 * portait mode: 1vmin=1vw and 1vmax=1vh
 * landscape mode: 1vmin=1vh and 1vmax=1vw
-![example image](https://weeblytutorials.com/wp-content/uploads/2017/04/Weebly-blogs-example.png)
 
-## **ABSOLUTE**
+## **ABSOLUTE UNITS**
 
 ### **Pixels(px)**
 * 
-### **Points(pt)**
+#### **Points(pt)**
 * 1pt=72px
-### **Inches(in)**
+#### **Inches(in)**
 * 1in=96px=72pt
-### **cm and mm**
+#### **cm and mm**
 * 1cm=~37.8px
-### **pc**
+#### **pc**
 * 1pc=12pt=16px
-* 
 
