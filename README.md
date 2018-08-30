@@ -6,7 +6,9 @@
 
 * change accordingly to the font-size of the parent element
 * **Use for:** typography, and elements related to typography 
+
 **[em example](https://codepen.io/dixita0607/pen/QQNomG)** 
+
 **[Side menu layout using em example](https://codepen.io/dixita0607/pen/LQNoOL)** 
 
 ### **rem**
@@ -40,12 +42,19 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * **Use for:** responsive typography; “perfect” responsive containers.
 * **Don’t use in:** media queries, as the viewport will never attain a width of less than 100vw or a height less than 100vh: by definition, those numbers correspond to the current dimensions of the browser window, no matter how large or small the screen or device is. Be aware of the unit’s lack of support in IE8.
 
+
 **[Fullscreen Sections example](https://codepen.io/SitePoint/pen/gmdRYx)** 
+
 **[Perfectly Fitting text example](https://codepen.io/SitePoint/pen/XMPgdr)** 
+
 **[Easily Center Your Elements example](https://codepen.io/SitePoint/pen/evLRdq)** 
+
 **[Scrollbars and vw example](https://codepen.io/SitePoint/pen/ZeMyeg)** 
+
 **[Easy Fullscreen Page Scroll With Background Reveal](https://codepen.io/dudleystorey/pen/lejFx)** 
+
 **[Fluid Header](https://codepen.io/chriscoyier/pen/RpKEzV)** 
+
 
 **use case:**  when you need to fill the exact entire height of the screen
 ![example](https://assets.hongkiat.com/uploads/css-viewport-units-vw-vh-wmin-vmax/fullscreen-background.gif)
