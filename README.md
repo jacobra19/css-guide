@@ -40,7 +40,7 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * **Don’t use in:** media queries, as the viewport will never attain a width of less than 100vw or a height less than 100vh: by definition, those numbers correspond to the current dimensions of the browser window, no matter how large or small the screen or device is. Be aware of the unit’s lack of support in IE8.
 
 ### **vmin/vmax**
-* **vmax** - This value will be whichever is **smaller** at the moment, vw or vh.
+* **vmin** - This value will be whichever is **smaller** at the moment, vw or vh.
 * **vmax** - This value will be whichever is **larger** at the moment, vw or vh.
 * portait mode: 1vmin=1vw and 1vmax=1vh
 * landscape mode: 1vmin=1vh and 1vmax=1vw
