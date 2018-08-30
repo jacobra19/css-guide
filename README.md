@@ -50,7 +50,7 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 ## **ABSOLUTE UNITS**
 
 ### **Pixels(px)**
-* 
+*  use pixels when need to tell the browser to make an element an exact size. 
 #### **Points(pt)**
 * 1pt=72px
 #### **Inches(in)**
