@@ -5,9 +5,9 @@
 ### **em**
 
 * change accordingly to the font-size of the parent element
-* **Use for:** typography, and elements related to typography
-**[em example](https://codepen.io/dixita0607/pen/QQNomG)**
-**[Side menu layout using em example](https://codepen.io/dixita0607/pen/LQNoOL)**
+* **Use for:** typography, and elements related to typography 
+**[em example](https://codepen.io/dixita0607/pen/QQNomG)** 
+**[Side menu layout using em example](https://codepen.io/dixita0607/pen/LQNoOL)** 
 
 ### **rem**
 * A relative unit, like em, but it is always relative to the "root" element (i.e. :root {}) rather than using the cascade like em does. 
@@ -40,12 +40,12 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * **Use for:** responsive typography; “perfect” responsive containers.
 * **Don’t use in:** media queries, as the viewport will never attain a width of less than 100vw or a height less than 100vh: by definition, those numbers correspond to the current dimensions of the browser window, no matter how large or small the screen or device is. Be aware of the unit’s lack of support in IE8.
 
-**[Fullscreen Sections example](https://codepen.io/SitePoint/pen/gmdRYx)**
-**[Perfectly Fitting text example](https://codepen.io/SitePoint/pen/XMPgdr)**
-**[Easily Center Your Elements example](https://codepen.io/SitePoint/pen/evLRdq)**
-**[Scrollbars and vw example](https://codepen.io/SitePoint/pen/ZeMyeg)**
-**[Easy Fullscreen Page Scroll With Background Reveal](https://codepen.io/dudleystorey/pen/lejFx)**
-**[Fluid Header](https://codepen.io/chriscoyier/pen/RpKEzV)**
+**[Fullscreen Sections example](https://codepen.io/SitePoint/pen/gmdRYx)** 
+**[Perfectly Fitting text example](https://codepen.io/SitePoint/pen/XMPgdr)** 
+**[Easily Center Your Elements example](https://codepen.io/SitePoint/pen/evLRdq)** 
+**[Scrollbars and vw example](https://codepen.io/SitePoint/pen/ZeMyeg)** 
+**[Easy Fullscreen Page Scroll With Background Reveal](https://codepen.io/dudleystorey/pen/lejFx)** 
+**[Fluid Header](https://codepen.io/chriscoyier/pen/RpKEzV)** 
 
 **use case:**  when you need to fill the exact entire height of the screen
 ![example](https://assets.hongkiat.com/uploads/css-viewport-units-vw-vh-wmin-vmax/fullscreen-background.gif)
@@ -60,12 +60,12 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 * portait mode: 1vmin=1vw and 1vmax=1vh
 * landscape mode: 1vmin=1vh and 1vmax=1vw
 
-**[vMin for Hero Text example](https://codepen.io/dudleystorey/pen/ALWrXZ)**
+**[vMin for Hero Text example](https://codepen.io/dudleystorey/pen/ALWrXZ)** 
 **use case:**  
 
-![example](https://image.ibb.co/j7urcp/rtaImage.png)
+![example](https://image.ibb.co/j7urcp/rtaImage.png) 
 
-## **ABSOLUTE UNITS**
+## **ABSOLUTE UNITS** 
 
 ### **Pixels(px)**
 *  use pixels when need to tell the browser to make an element an exact size. 
