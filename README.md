@@ -58,9 +58,7 @@ as a result 1rem will have the size of 20px, 2rem=40px, 0.5rem=10px and so on...
 
 **use case:**  when you need to fill the exact entire height of the screen
 
-![example]('/fullscreen-background.gif')
-
-
+[gif example](https://assets.hongkiat.com/uploads/css-viewport-units-vw-vh-wmin-vmax/fullscreen-background.gif)
 
 
 
